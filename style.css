@@ -133,7 +133,7 @@ body{
 }
 .recommended__container{
     display: flex;
-    flex-wrap: wrapq;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10px;
 
@@ -203,6 +203,13 @@ body{
 }
 }
 @media  screen and (max-width:600px) {
+    .sale-image__offer{
+        position:static;
+        width: 90%;
+        margin:15px auto;
+        transform: none;
+        text-align: center;
+    }
     
 
 .course-card{
